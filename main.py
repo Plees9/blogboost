@@ -37,9 +37,8 @@ def worker(model: BlogModel):
     BlogApi().postToBlogger(blog_model.id,
                             title=soup.title.string, body=f'{soup.body}')
 
-
-if __name__ == "__main__":
-
+def main():
+    
     with open('data\\blogs_data.json', 'r') as fileInput:
         blogs_data = json.load(fileInput)
 
@@ -66,3 +65,7 @@ if __name__ == "__main__":
     end_time = time.time()
     elapsed_time = (end_time - start_time)/60
     print("Kết thúc trong: ", elapsed_time)
+
+if __name__ == "__main__":
+    main()
+
