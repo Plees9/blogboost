@@ -4,9 +4,9 @@ Use chatgpt api to genarate content and post to blogger.
 ## Installation
 Use the package manage [pip] to install.
 
-'''bash
+```bash
 pip install -r requirement.txt
-'''
+```
 ## Usage
 1. Get your own API key from ChatGPT (https://beta.openai.com/docs/api-reference)
 2. Set up a new project in Google Cloud Platform, enable APIs for Google Sheets V4 and Google Drive API v3.
