@@ -1,3 +1,0 @@
-api_chatgpt_35_blogwriter = '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'
-api_ledinhphuc09092001_blogspot = 'AIzaSyAiyEQCOVBplwD0obCZavSUJ-PW3qoWDIs'
-api_sparktraffic = '5afda39ad977cf97e2d6df9769301c3e'
