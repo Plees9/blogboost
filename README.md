@@ -2,6 +2,16 @@
 Use chatgpt api to genarate content and post to blogger.
 
 ## Installation
+Create virtual eviroment.
+```bash
+python -m venv .venv
+```
+activate .venv
+
+```bash
+.venv\Scripts\acvivate
+```
+
 Use the package manage [pip] to install.
 
 ```bash
